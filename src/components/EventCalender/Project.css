@@ -1,0 +1,111 @@
+.Projectcontene {
+    background-color: #0961F5;
+    height: 932px;
+    top: 544px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .Projecticn{
+    display: flex;
+    justify-content: space-between;
+  }
+  .Projecticons{
+    height: 24px;
+    width: 24px;
+    color: #ffff;
+  }
+  .Projecttime{
+    align-items: center;
+    fontfamily: Roboto Flex;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffff;
+    padding: 10px 0px 0px 0px ;
+  }
+  .Projectcale{
+    height: 787px;
+    top: 163px;
+    gap: 0px;
+    border-radius: 65px 65px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    padding: 18px;
+    margin-top: 50px;
+  }
+  .Projectconference{
+  fontfamily: Roboto Flex;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 0px 0px 0px;
+  }
+  
+  .ProjectTECHyear{
+    fontfamily: Roboto Flex;
+    font-size: 20px;
+    font-weight: 700;
+    color: #4C5057;
+    padding: 5px 20px ;
+  }
+  .ProjectMAP{
+    display: flex;
+    padding: 5px 15px;
+  }
+  .Projectlocation{
+    fontfamily: Roboto Flex;
+    font-size: 15px;
+    font-weight: 400;
+    color: #696C72;
+    padding: 5px px 0px 0px ;
+  }
+  .Projectmap{
+    width: 20px;
+    height: 20px;
+    padding: 0px 2px;
+    gap: 0px;
+    opacity: 0px;
+    align-items: center;
+    color: #696C72;
+  }
+  .ProjectPar{
+    fontfamily: Roboto Flex;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    color: #696C72;
+    padding: 35px 47px;
+  }
+  .Projectbut{
+    height: 71px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    align-items: center;
+    text-align: center;
+    background: #0961F5;
+    padding: 15px ;
+    margin:0px 24px;
+    color: #ffff;
+    fontfamily: Roboto Flex;
+    font-size: 32px;
+  }
+  @media screen and (max-width:100%){
+    .Projectcontene {
+      background-color: #0961F5;
+      top: 544px;
+      gap: 0px;
+      opacity: 0px;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+  .Projecticons{
+    padding: 10px !important;
+    margin: 10px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ProjectTECHyear{
+    padding: 0 20px !important;
+  }
+}

@@ -1,0 +1,339 @@
+.Reportstd{
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.Reporth1{
+    fontfamily: Poppins;
+    font-size: 15px;
+    font-weight: 600;  
+}
+.Reporth2{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+}
+.Reportresult{
+    display: flex;
+    height: 339px;
+    border-radius: 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-top: 20px;
+}
+.ReportSubjects{
+    background: #FAFFEE;
+    width: 35%;
+    border: 1px solid #D9DBE0;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 20px 0px 0px 20px ;   
+}
+.ReportSubjects1{
+    background: #FAFFEE;
+    width:35%;
+    border: 1px solid #D9DBE0;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.ReportSubjects2{
+    background: #FAFFEE;
+    width: 35%;
+    border: 1px solid #D9DBE0;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-radius:0px 20px 20px 0px  ;
+}
+.ReportSubjects h1{
+    color: #898E97;
+    font-family: Roboto Flex;
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    padding: 8px 29px;
+    border-radius: 20px 0px 0px 0px ;
+    border: 1px solid #D9DBE0;
+    border: 1px 0px 0px 0px;
+}
+.ReportSubjects1 h1{
+    color: #898E97;
+    font-family: Roboto Flex;
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    padding: 8px 29px;
+    border: 1px solid #D9DBE0;
+    border: 1px 0px 0px 0px;
+}
+.ReportSubjects2 h1{
+    color: #898E97;
+    font-family: Roboto Flex;
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    padding: 8px 29px;
+    border: 1px solid #D9DBE0;
+    border: 1px 0px 0px 0px;
+    border-radius: 0px 20px 0px 0px;
+}
+.ReportSubjects li , .ReportSubjects1 li, .ReportSubjects2 li{
+    color: #000000;
+    fontfamily: Roboto Flex;
+    font-size: 15px;
+    font-weight: 600;
+    list-style: none;
+    padding: 9px 30px;
+}
+.percentage-contener{
+    display: flex;
+    margin: 20px;
+}
+.Reportleft h1{ 
+fontfamily: Roboto Flex;
+font-size: 20px;
+font-weight: 500;
+width: 120px;
+}
+.recharts-wrapper{
+    margin:0px 1px 0px 0px ;
+    width: 300px;
+    height: 200px;
+    font-size: 12px;
+}
+.Reportright{
+    display: flex;
+    margin: 90px 0px 0px 0px;
+}
+.RCparple, .RCgreen, .RCBlue, .RCred, .RCblue, .RCpink, .RCg, .RCyello{
+    width: 13px;
+    height: 13px;
+    margin: 13px 10px 0px 10px;
+}
+.RCparple{
+    background: #E80CD2;
+}
+.RCgreen{
+    background: #008000;
+}
+.RCBlue{
+    background: #2910BC;
+}
+.RCred{
+    background: #EA1212;
+}
+.RCblue{
+    background: #0961F5;
+}
+.RCpink{
+    background: #FF007A;
+}
+.RCg{
+    background: #8AB60E;
+}
+.RCyello{
+    background: #D9C726;
+}
+.Reportsubjects li{
+    margin-top: 11px;
+    list-style: none;
+    fontfamily: Roboto Flex;
+    font-size: 11px;
+    font-weight: 600;
+}
+.Report3conten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Reportline{
+    border: 1px solid #D9DBE0;
+    margin: 35px 0px ;
+}
+.Reportleftcontent{
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    border: 1px solid #DCDCDC;
+    background: #FFFFFF;
+    width: 182px;
+    height: 244px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* margin:0px 2% 2%; */
+}
+.Reportleftcontent p, .Reportleftcircle h1, .Reportleftcontent h1{
+    color: #696C72;
+    fontfamily: Roboto Flex;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin: 9px 10px 5px 10px;
+}
+.Reportleftcircle{
+    height: 141px;
+    width: 141px;
+    border: 15px solid #0961F5;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-left: 19px;
+    align-items: center;
+    justify-content: center;
+}
+.Reportleftcontent p span, .Reportleftcircle h1 span, .Reportleftcontent h1 span{
+    color: #0961F5;
+}
+.Reportleftcircle h1 span{
+    font-size: 18px;
+}
+.Reportrightcontent{
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    border: 1px solid #EFE8E8;
+    width: 45%;
+    height: 244px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #F3F4F6;
+    align-items: center;
+    margin: 0px 2% 0px 5%;
+}
+.Reportrightcontent h1{
+    color: #086B8A;
+    fontfamily: Roboto Flex;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+.Reportrightcontent li{
+    list-style: none;
+    margin: 3px 0px;
+    fontfamily: Roboto Flex;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 3px 29%;
+    /* text-align: center; */
+    width: 100%;
+    height: 28.92px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+}
+.Reportrightcontent li span{
+    color: #086B8A;
+}
+.Reportperformance{
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: 1px solid #EFE8E8;
+    background: #F3F4F6;
+    /* width: 400px; */
+    height: 161px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+}
+.Reportperformanceleft p{
+    fontfamily: Roboto Flex;
+    font-size: 15px;
+    font-weight: 400;
+    color: #086B8A; 
+}
+.Reportperformanceleft{
+    margin-left: 2%;
+}
+.Reportperformanceleft li{
+    width: 219px;
+    height: 30px;
+    fontfamily: Roboto Flex;
+    font-size: 13px;
+    font-weight: 400px;
+    list-style: none;
+    background: #ffffff;
+    margin-top: 4px;
+    padding: 5px 20px;
+}
+.Reportperformanceleft li span{
+    color: #086B8A;
+}
+.ReportPerformancecircle{
+    height: 120px;
+    width: 120px;
+    border: 15px solid #0F9AC6;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.ReportPerformancecircle h1{
+    fontfamily: Roboto Flex;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #086B8A;
+    margin-top: 15px;
+}
+.ReportPerformancecircle h2{
+    fontfamily: Roboto Flex;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    color: #555657;
+}
+.ReportRemark{
+    width: 100%;
+}
+.ReportRemark h1{
+    fontfamily: Roboto Flex;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 2%;
+    color: #000000;     
+}
+.ReportRemark h2{
+    fontfamily: Roboto Flex;
+    font-size: 16px;
+    font-weight: 400;
+    margin:10px 0px 0px 3%;
+    color: #2E2F31;
+}
+.ReportRemark ol li{
+    fontfamily: Roboto Flex;
+    font-size: 13px;
+    margin:10px 0px 0px 4%;
+}
+@media screen and (min-width:700px ) {
+.Reportresult{
+    padding: 0px 2%;
+}
+.ReportSubjects li , .ReportSubjects1 li, .ReportSubjects2 li{
+    color: #000000;
+    fontfamily: Roboto Flex;
+    font-size: 15px;
+    font-weight: 600;
+    list-style: none;
+    padding: 9px 35%;
+}
+.ReportSubjects h1, .ReportSubjects1 h1, .ReportSubjects2 h1 {
+    padding: 9px 35%;
+}
+.Reportperformanceleft p{
+   width: 300px;
+}
+.Reportperformanceleft li{
+    width: 150%;
+    padding-left: 40%;
+}
+.Reportperformanceright{
+    padding: 0px 0px 0px 45%;
+}
+.recharts-surface{
+   padding-right: 30%;
+}
+.Reportright{
+    padding-right: 20%;
+}
+}

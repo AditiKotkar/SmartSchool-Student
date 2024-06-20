@@ -1,0 +1,42 @@
+.Teacher{
+    box-shadow: 0px 4px 4px 0px #A0A4AB;
+    border: 1px solid #BFC4CE;
+    background: #FFFFFF;
+    width: 45%;
+    height: 20%;
+    border-radius: 15px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10% 27%;
+    padding: 30px 0px ;
+}
+.Teacher h1{
+    color: #4C5057;
+    fontfamily: Roboto Flex;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 25%;
+}
+.Teacher button{
+    background: #361BD7;
+    width: 99px;
+    height: 36.21px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    border: none;
+    color: #FFFFFF;
+    fontfamily: Roboto Flex;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+@media screen and (min-width:700px ){
+    .Teacher h1{
+        margin-bottom: 10%;
+    }
+}

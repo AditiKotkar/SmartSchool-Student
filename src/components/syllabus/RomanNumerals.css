@@ -1,0 +1,131 @@
+
+body {
+    background-color: #fff;
+  }
+  .RomanRoman1{
+      align-items: center;
+      text-align: center;
+      padding: 20px 0px ;
+      justify-content: space-between;
+  }
+  .RomanRoman1 h1{
+      fontfamily: Roboto Flex;
+      font-size: 20px;
+      padding: 20px;
+  }
+  .RomanSearch{
+      border-radius: 20px;
+      width: 90%;
+      height: 38px;
+      align-items: center;
+      text-align: center;
+      color: #888;
+  }
+  .Romansearch{
+      position: absolute;
+      padding:39px 0px 0px 27% ;
+      transform: translateY(-50%);
+      color: #888;
+  }
+  .Romannavbar {
+    width: 50%;
+    z-index: 999;
+    padding: 0px 0;
+    fontfamily: Roboto Flex;
+    padding-left: 20px;
+  }
+  .Romanmenu-btn {
+    position: absolute;
+    color: #111;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 43px;
+    right: 20px;
+    z-index: 999;
+    margin-left: 30px;
+    display: block;
+    left: 0;
+    }
+    .Romanmenu{
+      position: absolute;
+      padding-top: 43px;
+      right: 0;
+      margin:145px 5px ;
+      height: 771px;
+      width: 45%;
+      left: -100%;
+      border: 1px solid rgba(217,217,217,0.5);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20000000298023224);
+      background-color: #f6f8fb;
+      transition: all 0.3s ease;
+      list-style-type: none;
+    }
+    .Romanmenu.active {
+      left: 0;
+      padding-top: 30px;
+      position: absolute;
+      right: unset;
+    }
+    .Romannavbar .Romanmenu li a {
+      position: relative;
+      padding: 2px 7%;
+      display: inline-block;
+      margin: 0px 0px 12px 0px;
+      font-size: 14px;
+      color: black;
+      fontfamily: Roboto Flex;
+    }
+    .Romanmenu li:hover {
+      padding: 0px 0%;
+      align-items: center;
+      margin: 12px 0px;
+      justify-content: center;
+      width: 100%;
+      height: 32px;
+      background-color: #B0B3B8;
+    }
+  .Romanintro{
+    width: 100%;
+    height: 930px; 
+    left: -100%;
+    text-align: justify;
+    overflow-wrap: break-word;
+  }
+  .Romanintro p{
+    fontfamily: Roboto Flex;
+    font-size: 18px;
+    margin: 10px;
+    padding-right: 20px;
+    overflow-wrap: break-word;
+  }
+  .RomanRoman{
+    /* width: 430px; */
+    fontfamily: Roboto Flex;
+    font-size: 20px;
+    color: #7236F0;
+    text-align: center;
+    align-items: center;
+    overflow-wrap: break-word;
+  }
+  .RomanGeeta{
+      color: #0EB651;
+      font-size: 18px;
+      font-weight: 900;
+      fontfamily: Roboto Flex, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .RomanTeacher{
+      color: #4946df;
+     font-size: 18px;
+     font-weight: 900;
+     fontfamily: Roboto Flex, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  @media screen and (min-width:700px ) {
+    .Romansearch{
+    padding: 39px 0px 0px 38%;
+    }
+    .Romannavbar .Romanmenu li a {
+      font-size: 18px;
+    }
+  }

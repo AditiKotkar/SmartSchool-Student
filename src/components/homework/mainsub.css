@@ -1,0 +1,85 @@
+
+  .maincontener{
+    /* width: 430px; */
+    height: 932px;
+    overflow: hidden;
+  }
+  .maintextimg {
+    display: flex;
+    padding-left:20px;
+    justify-content: center;
+    /* position: relative; */
+    margin:0px 20px 0px 0px;
+  }
+  .maintext {
+    width: 178px;
+    color: rgba(0,0,0,1);
+    fontfamily: Poppins;
+    fontweight: SemiBold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+    margin-right: 7%;
+    padding:40px 0px 0px 0px ;
+  }
+  .mainimg {
+    width: 164px;
+    height: 127px;
+    background: url("./images/homework.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+  }
+  .mainbut1{
+    padding: 42px 0px 42px 5px;
+  }
+  .mainbuttons1{
+    background-color: #E5EFFF;
+    align-items: center;
+    /* width: 383px; */
+    height: 42px;
+    opacity: 1;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    border-radius: 20px;
+    justify-content: space-evenly;
+  }
+  .mainbuttons1 div{
+    width: 34%;
+    border-radius: 20px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+  }
+  .selected.Pending{
+    background: #ea1212;
+    color: #fff;
+  }
+  .selected.Submitted{
+    background: #046B3A;
+    color: #fff;
+  }
+  .selected.Evaluated{
+    background: #1A6EFC;
+    color: #fff;
+  }
+  
+  @media screen and (min-width:700px ) {
+    .maincontener{
+      width: 100%;
+    }
+    .maintext {
+      color: rgba(0,0,0,1);
+      fontfamily: Poppins;
+      fontweight: SemiBold;
+      font-size: 22px;
+      opacity: 1;
+      text-align: left;
+      margin-right: 60%;
+      padding:40px 0px 0px 0px ;
+    }
+  }
+  

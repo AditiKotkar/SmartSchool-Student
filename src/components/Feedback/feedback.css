@@ -1,0 +1,101 @@
+.feedbackcontent{
+    /* width: 430px;
+    height: 932px; */
+    gap: 0px;
+    opacity: 0px;
+    background: #EFF1F4;
+}
+.Attendanceicon{
+    padding-left: 10px;
+}
+.feedbackheader{
+    gap: 0px;
+    opacity: 0px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #0961F5;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 45px;
+}
+.feedbackheader h1 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-left: 30%;
+}
+.feedbackteacher h2 {
+    fontfamily: Roboto Flex;
+    font-size: 16px;
+    font-weight: 500;
+}
+.feedbackconten1 , .feedbackconten2{
+    border: 1px solid #EFEDED;
+    background: #FFFFFF;
+    width: 98%;
+    height: 36px;
+    gap: 0px;
+    border-radius: 7px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    margin: 10px 0px;
+}
+.feedbackconten2{
+    height: 201px;
+}
+.feedbackconten2{
+    outline: none;
+}
+.feedbackteacher {
+    padding: 35px;
+}
+.feedbackteacher input{
+    outline: none;
+    align-items: center;
+    justify-content: center;
+}
+.field input,
+.textarea textarea {
+  outline: none;
+  padding: 0 15px;
+  fontfamily: Roboto Flex;
+  font-size: 16px;
+  font-weight: 500;
+}
+.butons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40PX;
+}
+.BACK{
+    border: 1px solid #000000;
+    width: 124px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    fontfamily: Roboto Flex;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.SUBMIT{
+    width: 124px;
+    height: 40px;
+    border-radius: 7px;
+    opacity: 0px;
+    border: #2910BC;
+    background: #2910BC;
+    color: #FFFFFF;
+    fontfamily: Roboto Flex;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+@media screen and (min-width:700px ){
+    .feedbackheader h1 {
+        margin-left: 43%;
+    }
+}

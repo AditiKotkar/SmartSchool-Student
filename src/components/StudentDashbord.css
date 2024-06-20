@@ -1,0 +1,168 @@
+  .contene {
+  height: 1124px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  }
+  .bgimg {
+  width: 100%;
+  height: 156px;
+  background: url("./images/Design.png") center/cover;
+  display: flex; justify-content: center;
+  align-items: center;
+  text-align: left;
+  border-radius: 10px;
+  }
+  .img-1 {
+  width: 69px;
+  height: 65px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50px;
+  margin: 0px 35px 0px 30px;
+  }
+  .Name span {
+  color: rgba(255,255,255,1);
+  fontfamily: Roboto Flex;
+  font-weight: SemiBold;
+  text-align: left;
+  justify-content: center;
+  opacity: 1;
+  margin: 10px 0px 20px 0px;
+  }
+  .hiSaiChudhari {
+  width: 180px;
+  font-size: 20px;
+  }
+  .rollNumber1 , .class12Std{
+  width: 133px;
+  font-size: 14px;
+  }
+  .navbar {
+    z-index: 999;
+    padding: 30px 0;
+    fontfamily: Roboto Flex;
+    transition: all 0.3s ease;
+  }
+  .menu-btn{
+    color: #111;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+    margin:0px 30px 90px 72px;
+    display: block;
+    z-index: 999;
+  }
+  .menu-btn i.active:before {
+    content: "\f00d";
+  }
+  .navbar .menu {
+    position: absolute;
+    display: cover;
+    height: 906px;
+    left: -100%;
+    top: 137px;
+    border: 1px solid rgba(217,217,217,0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20000000298023224);
+    background: #ffffff;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+  }
+  .navbar .menu.active {
+    left: 0;
+  }
+  .navbar .menu li {
+    overflow: hidden;
+  }
+  .navbar .max-width {
+  margin-top: 20px;
+  }
+  .menu-btn .active:before {
+    margin-top:135px;
+    margin-right:0px;
+    display: cover;
+  }
+  .navbar .menu li a {
+    padding: 2px;
+    display: inline-block;
+    margin: 15px 4px;
+    font-size: 16px;
+    color: black;
+    fontfamily: Poppins;
+  }
+  .menu{
+    padding: 65px;
+    margin: 2px 100px 0px 3px;
+  }
+  .menu li a:hover {
+    border-radius: 4px;
+    background-color: #9EC0F9;
+  } 
+  .con {
+  max-width: 95rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  }
+  .contener {
+  box-shadow: 0px 4px 4px 0px #00000033;
+  border: 1px solid #D9D9D980;
+  background: #FFFFFF;
+  width: 167px;
+  height: 151px;
+  gap: 0px;
+  border-radius: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 30px 0px 0px 10px;
+  }
+  .contener:hover {
+  transform: scale(1.05);
+  background-color: #C6C0EA;
+  box-shadow: 0px 4px 4px 0px #00000033;
+  border: 1px solid #D9D9D980;
+  }
+  .contener h1 {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  color: #000;
+  margin:1px;
+  fontfamily: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  align-items: center;
+  }
+  .img {
+  height: 99px;
+  border-radius: 0.5rem;
+  margin-top: 8px;
+  align-items: center;
+  }
+  @media screen and (min-width:700px ) {
+    .contene{
+      width: 100%;
+    }
+    .con{
+      align-items: center;
+      justify-content: center;
+    }
+    .contener{
+      width: 250px;
+      height: 199px;
+      margin: 30px 20px 0px 20px ;
+    }
+    .img{
+      margin-top: 20px;
+    }
+    .Name{
+      padding: 0px 30% 0px 5%;
+    }
+  }
+  

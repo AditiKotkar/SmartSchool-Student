@@ -1,0 +1,100 @@
+
+  .SubjectyourSyllabus{
+    display: flex;
+    padding-left:20px;
+    position: relative;
+    margin:0px 20px 0px 0px;
+  }
+  .SubjectSyllabus{
+    fontfamily: Poppins;
+    fontweight: SemiBold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+    padding:30px 0px 0px 0px ;
+    width: 135px;
+    height: 60px;
+    flex-direction: column;
+  }
+  .Subjectimg{
+    width: 105px;
+    height: 76px;
+    background: url("./images/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    margin:30px 20px 20px 35%;
+  }
+  .Subjectchapter{
+    /* width: 397px; */
+    height: 42px;
+    border: #000;
+    border-radius: 10px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .S-icon{
+    height: 24px;
+    width: 24px;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 5%; */
+  }
+  .Subjectchapter h1{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    fontfamily: Roboto Flex, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans','Liberation Sans', sans-serif;
+    fontweight: SemiBold;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    padding: 0px 2%;
+  }
+  .Subjectconteners{
+    /* padding: 10px 0px 0px 180px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .Subjectname{
+    /* width: 355px; */
+    height: 42px;
+    border-radius: 10px;
+    background-color: #c6c5f3fa;
+    /* transform: translateX(-20%); */
+    margin: 20px;
+  }
+  .Subjectname:hover{
+    background-color: #7ddea4fa;
+  }
+  .Subjectname h1{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    fontfamily: Roboto Flex, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans','Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    padding: 10px 0px 0px 30px;
+  }
+  @media screen and (min-width:500px ) {
+    .Subjectimg{
+      margin:30px 20px 20px 55%;
+    }
+  }
+@media screen and (min-width:700px ) {
+  .Subjectimg{
+    margin:30px 20px 20px 70%;
+  }
+}
+  

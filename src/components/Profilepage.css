@@ -1,0 +1,93 @@
+.profile-content {
+    background-color: #0961F5;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .profile-Profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .profile-ProfileName{
+    color: #FFFFFF;
+    fontfamily: Roboto Flex;
+    font-size: 36px;
+    font-weight: 600; 
+    padding: 0px 110px;
+    text-align: center;
+  }
+  .profile-icon{
+    height: 24px;
+    width: 24px;
+    color: #ffff;
+  }
+  .profile-data{
+    height: 787px;
+    border-radius: 65px 65px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    padding: 100px 0px;
+    margin: 81px 0px;
+  }
+  .profile-IMG{
+    background-color: #e0dbdb;
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+    margin: 10px 30%;
+  }
+  .profile-Dtext div {
+    height: 62px;
+    gap: 0px;
+    border-radius: 10px;
+    border: #e0dbdb;
+    opacity: 0px;
+    padding: 20px;
+    margin: 20px 15px;
+    background: #F2F6FECC;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+  }
+  .profile-Dtext input{
+    background: none;
+    border: none;
+    outline: none;
+  }
+  .profile-Std{
+    /* display: flex; */
+  justify-content: space-between;
+  }
+  .profile-Std input{
+    width: 37px;
+    
+  }
+  .profile-Dtext label{
+    fontfamily: Roboto Flex;
+    font-size: 14px;
+    font-weight: 500;
+    width: 61px;
+    color: #A0A4AB;
+  }
+  .profile-Dtext input{
+    fontfamily: Roboto Flex;
+    font-size: 15px;
+    font-weight: 400;
+    width: 120px;
+    color: #000000;
+    border: none;
+  }  
+  @media screen and (min-width:700px ) {
+    .profile-Std input{
+      width: 159px;
+    }
+    .profile-IMG{
+      margin: 10px 45%;
+    }
+    .profile-ProfileName{
+      margin: 0px 35% 20px 32% ;
+    }
+  }

@@ -1,0 +1,127 @@
+.root {
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+    align-items: center;
+  }
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  }
+  html {
+  scroll-behavior: smooth;
+  }
+  body {
+  font-size: 14px;
+  align-items: center;
+  }
+  .homecontene {
+  height: 1124px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  }
+  .homebg {
+  height: 66px;
+  background: url("./images/Design.png") center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  }
+  .homeName{
+    padding: 0px 10% 0px 20%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .homeicon{
+    color: #FFFFFF;
+  }
+  .homework {
+    fontfamily: Roboto Flex;
+    font-size: 32px;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .homeimg-1 {
+  width: 114px;
+  height: 102px;
+  background: url("./images/homework.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50px;
+  }
+  .homecon {
+  max-width: 95rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  }
+  .homecontener {
+  box-shadow: 0px 4px 4px 0px #00000033;
+  border: 1px solid #D9D9D980;
+  background: #FFFFFF;
+  width: 157px;
+  height: 151px;
+  gap: 0px;
+  border-radius: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 30px 10px 0px 10px;
+  }
+  .homecontener:hover {
+  transform: scale(1.05);
+  background-color: #C6C0EA;
+  box-shadow: 0px 4px 4px 0px #00000033;
+  border: 1px solid #D9D9D980;
+  }
+  .homecontener h1 {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  color: #000;
+  margin:1px;
+  fontfamily: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  align-items: center;
+  }
+  .homeimg {
+  height: 99px;
+  border-radius: 0.5rem;
+  margin-top: 8px;
+  align-items: center;
+  }
+  @media screen and (min-width:700px ) {
+   .homecon{
+      align-items: center;
+      justify-content: center;
+    } 
+    .homecontener{
+      width: 240px;
+      height: 190px;
+      margin: 30px 20px 0px 20px ;
+    }
+    .homeimg{
+      margin-top: 20px;
+    }
+    .homeName{
+      padding: 0px 29% 0px 35%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  
